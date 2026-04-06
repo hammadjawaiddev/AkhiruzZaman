@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Akhir uz Zaman — An Islamic educational resource about End Times: Imam Mahdi, Dajjal, Prophet Isa (A.S), and Malhama al-Kubra. Respectful, informative, and non-sectarian." />
+  <title>Akhir uz Zaman — Islamic End Times</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+<!-- Star Background -->
+<canvas id="star-canvas" aria-hidden="true"></canvas>
+
+<!-- Navigation -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <a href="index.html" class="nav-logo" aria-label="Akhir uz Zaman Home">
+    <div class="nav-logo-icon" aria-hidden="true">☽</div>
+    <div class="nav-logo-text">
+      Akhir uz Zaman
+      <span class="nav-logo-sub">End Times</span>
+    </div>
+  </a>
+  <ul class="nav-links" role="list">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="imam-mahdi.html">Imam Mahdi</a></li>
+    <li><a href="dajjal.html">Dajjal</a></li>
+    <li><a href="prophet-isa.html">Prophet Isa</a></li>
+    <li><a href="malhama.html">Malhama</a></li>
+    <li><a href="timeline.html">Timeline</a></li>
+    <li><a href="references.html">References</a></li>
+    <li><a href="sitemap.html">Sitemap</a></li>
+  </ul>
+  <button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile Nav -->
+<div class="nav-mobile" role="navigation" aria-label="Mobile navigation">
+  <a href="index.html">Home</a>
+  <a href="imam-mahdi.html">Imam Mahdi</a>
+  <a href="dajjal.html">Dajjal</a>
+  <a href="prophet-isa.html">Prophet Isa (A.S)</a>
+  <a href="malhama.html">Malhama al-Kubra</a>
+  <a href="timeline.html">Timeline</a>
+  <a href="references.html">References</a>
+  <a href="sitemap.html">Sitemap</a>
+</div>
+
+<!-- Page Content -->
+<main class="page-wrapper">
+
+  <!-- Hero -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="hero-bismillah" aria-label="Bismillah ir-Rahman ir-Rahim">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+      <p class="hero-eyebrow">An Islamic Educational Resource</p>
+      <h1 class="hero-title" id="hero-title">
+        Akhir uz Zaman
+        <span class="accent">آخر الزمان</span>
+      </h1>
+      <p class="hero-subtitle">
+        Exploring the signs, prophecies, and events of the End Times as described in the Quran and authenticated Hadith.
+      </p>
+      <div class="hero-divider" aria-hidden="true"></div>
+      <div class="hero-cta">
+        <a href="#topics" class="btn-primary"><span>Explore Topics</span> <span aria-hidden="true">↓</span></a>
+        <a href="timeline.html" class="btn-outline"><span>View Timeline</span> <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introduction -->
+  <section class="intro-section" id="intro" aria-labelledby="intro-heading">
+    <div class="section-container">
+      <div class="intro-grid">
+        <div class="intro-text reveal">
+          <h2 id="intro-heading">
+            Understanding the <span class="gold">End of Times</span>
+          </h2>
+          <p>
+            According to Islamic teachings, the world will experience a series of major events before the Day of Judgement (Yawm al-Qiyamah). These events have been described in detail by the Prophet Muhammad ﷺ through authenticated narrations preserved in the great hadith collections.
+          </p>
+          <p>
+            The knowledge of these signs is meant to strengthen our faith, inspire preparation through righteous deeds, and remind believers of the ultimate accountability before Allah ﷻ.
+          </p>
+          <p>
+            This website presents these teachings in an educational and respectful manner, drawing exclusively from the Quran and authentic hadith sources, without sectarian bias or speculation about current events.
+          </p>
+          <div class="mt-2">
+            <a href="timeline.html" class="btn-outline">View the Full Timeline →</a>
+          </div>
+        </div>
+        <div class="intro-verse reveal reveal-delay-2">
+          <div class="verse-arabic" lang="ar" dir="rtl">
+            وَأَنَّ السَّاعَةَ آتِيَةٌ لَّا رَيْبَ فِيهَا وَأَنَّ اللَّهَ يَبْعَثُ مَن فِي الْقُبُورِ
+          </div>
+          <p class="verse-translation">
+            "And that the Hour is coming — no doubt about it — and that Allah will resurrect those who are in the graves."
+          </p>
+          <p class="verse-source">Surah Al-Hajj (22:7)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Topic Cards -->
+  <section class="cards-section" id="topics" aria-labelledby="topics-heading">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-eyebrow">Main Topics</span>
+        <h2 class="section-title" id="topics-heading">The Major <span class="gold">Signs & Events</span></h2>
+        <p class="section-desc">Explore each of the central figures and events of the End Times through the lens of authentic Islamic scholarship.</p>
+        <div class="section-rule" aria-hidden="true"></div>
+      </div>
+
+      <div class="cards-grid">
+
+        <a href="imam-mahdi.html" class="topic-card reveal" aria-label="Learn about Imam Mahdi">
+          <span class="card-icon" aria-hidden="true">☪</span>
+          <p class="card-number">Topic 01</p>
+          <h3 class="card-title">Imam Mahdi</h3>
+          <p class="card-desc">
+            According to Islamic teachings, the Mahdi will be a just leader who emerges in the end times to restore justice and equity to a world filled with oppression.
+          </p>
+          <span class="card-arrow">Learn More <span aria-hidden="true">→</span></span>
+        </a>
+
+        <a href="dajjal.html" class="topic-card reveal reveal-delay-1" aria-label="Learn about Dajjal">
+          <span class="card-icon" aria-hidden="true">👁</span>
+          <p class="card-number">Topic 02</p>
+          <h3 class="card-title">Al-Masih ad-Dajjal</h3>
+          <p class="card-desc">
+            The Dajjal, or False Messiah, is described as the greatest trial humanity will face — a being of tremendous deception who will claim divinity.
+          </p>
+          <span class="card-arrow">Learn More <span aria-hidden="true">→</span></span>
+        </a>
+
+        <a href="prophet-isa.html" class="topic-card reveal reveal-delay-2" aria-label="Learn about Prophet Isa">
+          <span class="card-icon" aria-hidden="true">✦</span>
+          <p class="card-number">Topic 03</p>
+          <h3 class="card-title">Prophet Isa (A.S)</h3>
+          <p class="card-desc">
+            Islamic teachings affirm that Prophet Isa (Jesus, peace be upon him) will descend from the heavens in the latter days to establish justice and defeat the Dajjal.
+          </p>
+          <span class="card-arrow">Learn More <span aria-hidden="true">→</span></span>
+        </a>
+
+        <a href="malhama.html" class="topic-card reveal reveal-delay-3" aria-label="Learn about Malhama al-Kubra">
+          <span class="card-icon" aria-hidden="true">⚔</span>
+          <p class="card-number">Topic 04</p>
+          <h3 class="card-title">Malhama al-Kubra</h3>
+          <p class="card-desc">
+            The Great War — described in hadith as a monumental battle unprecedented in scale — is foretold as a defining event preceding the appearance of the Dajjal.
+          </p>
+          <span class="card-arrow">Learn More <span aria-hidden="true">→</span></span>
+        </a>
+
+        <a href="timeline.html" class="topic-card reveal" aria-label="View the End Times Timeline">
+          <span class="card-icon" aria-hidden="true">⏳</span>
+          <p class="card-number">Topic 05</p>
+          <h3 class="card-title">Prophetic Timeline</h3>
+          <p class="card-desc">
+            A visual guide to the sequence of events: from the minor signs already observed, through the major signs, to the final events before the Day of Judgement.
+          </p>
+          <span class="card-arrow">View Timeline <span aria-hidden="true">→</span></span>
+        </a>
+
+        <a href="references.html" class="topic-card reveal reveal-delay-1" aria-label="View References and Sources">
+          <span class="card-icon" aria-hidden="true">📖</span>
+          <p class="card-number">Sources</p>
+          <h3 class="card-title">Quranic & Hadith References</h3>
+          <p class="card-desc">
+            All content on this site is grounded in the Quran and authenticated narrations from Sahih Bukhari, Sahih Muslim, and other recognised collections.
+          </p>
+          <span class="card-arrow">View References <span aria-hidden="true">→</span></span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Hadith Highlight -->
+  <section style="padding: 5rem 0;" aria-label="Featured Hadith">
+    <div class="section-container">
+      <div style="max-width: 760px; margin: 0 auto; text-align: center;" class="reveal">
+        <span class="section-eyebrow">Featured Narration</span>
+        <div class="hadith-block" style="text-align: left; margin-top: 2rem;">
+          <div class="hadith-arabic" lang="ar" dir="rtl">
+            لَا تَقُومُ السَّاعَةُ حَتَّى تَطْلُعَ الشَّمْسُ مِنْ مَغْرِبِهَا
+          </div>
+          <p class="hadith-text">
+            "The Hour will not come to pass until the sun rises from the west…"
+          </p>
+          <p class="hadith-source">Sahih Bukhari & Sahih Muslim</p>
+        </div>
+        <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 1.5rem; font-style: italic;">
+          The rising of the sun from the west is considered one of the major signs after which repentance will no longer be accepted.
+        </p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <p class="footer-brand-name">☽ Akhir uz Zaman</p>
+        <p class="footer-brand-desc">
+          An educational Islamic resource presenting End Times narrations from the Quran and authenticated Hadith. No sectarian bias. No speculation on current events.
+        </p>
+      </div>
+      <div>
+        <p class="footer-col-title">Pages</p>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="imam-mahdi.html">Imam Mahdi</a></li>
+          <li><a href="dajjal.html">Dajjal</a></li>
+          <li><a href="prophet-isa.html">Prophet Isa (A.S)</a></li>
+          <li><a href="malhama.html">Malhama al-Kubra</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-col-title">More</p>
+        <ul class="footer-links">
+          <li><a href="timeline.html">Timeline</a></li>
+          <li><a href="references.html">References</a></li>
+          <li><a href="sitemap.html">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2024 Akhir uz Zaman. For educational purposes only.</p>
+      <p class="footer-disclaimer">Content based on Quran & Authenticated Hadith. No predictions about current events are made.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button id="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
